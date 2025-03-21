@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/header";
 import { ThemeProvider } from "@/components/themeProvider/theme-provider";
-import Paginations from "@/components/paginations/paginations";
 
 const inter = Inter({ subsets: ["vietnamese"] });
 

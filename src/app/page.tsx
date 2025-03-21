@@ -1,6 +1,5 @@
 import Banner from "@/components/banner/banner";
 import Content from "@/components/content/content";
-import Paginations from "@/components/paginations/paginations";
 
 export default function Page() {
   return (

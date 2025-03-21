@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import trial from "@/assets/images/Trial.png";
 import image_18 from "@/assets/images/image_18.png";
-import imageData from "@/assets/images/imageData.png";
 import Group1 from "@/assets/images/Group1.png";
 import Vector_up from "@/assets/icon/Vector_up.png";
 const JoinCard = () => {

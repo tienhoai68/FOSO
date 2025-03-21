@@ -6,7 +6,6 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-  PaginationEllipsis,
 } from "@/components/ui/pagination";
 
 const Paginations = () => {
@@ -16,17 +15,14 @@ const Paginations = () => {
         <PaginationPrevious href="#" />
         <div className="flex items-center gap-1">
           <PaginationItem>
-            <PaginationLink href="#" isActive>
+            <PaginationLink href="/" isActive>
               1
             </PaginationLink>
           </PaginationItem>
           <PaginationItem>
             <PaginationLink href="/product">2</PaginationLink>
           </PaginationItem>
-          {/* <PaginationEllipsis />
-          <PaginationItem>
-            <PaginationLink href="#">10</PaginationLink>
-          </PaginationItem> */}
+         
         </div>
 
         <PaginationNext href="/product" />
